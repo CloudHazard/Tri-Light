@@ -1,0 +1,22 @@
+Screens:
+1.Welcome Screen
+2.Option Screen
+3.Playing Screen
+
+Welcome Screen:
+	Button Elements:
+		Title text(text: "Tri-light")
+		Start Button(text: "Launch"; navigator: "Playing Screen")
+		Option Button(text: "Option"; navigator: "Option Screen")
+		Quit Button(text: "Dieout"; navigator: "END_GAME")
+		Overlay Image
+	Art：
+		Title Images 			: (prop: dynamic)
+		Start Button Images 	: (state: "default", "mouseOver"; prop: dynamic)
+		Option Button Images	: (state: "default", "mouseOver"; prop: dynamic)
+		Quit Button				: (state: "default", "mouseOver"; prop: dynamic)
+		Overlay Image			: (prop: static)
+		
+Option Screen:
+	Button Elements:
+		
